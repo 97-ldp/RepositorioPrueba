@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor-menu{
+    width: 65%;
+}
+
+.logo{
+    width: 15%;
+    font-family: cursive;
+    font-size: x_large;
+    margin-right: 0px;
+}
+
+.titulo{
+    width: 20%;
+    font-family: cursive;
+    font-size: x_large;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.header{
+    background-color: lightseagreen;
+    margin-bottom: 40px;
+}
+
+.barra-superior{
+    display: flex;
+    align-items:center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-item > a{
+    text-decoration: none;
+}
+
+.menu-item > a:hover{
+    font-size:20px;
+    text-decoration: underline; 
+}
+
+.imagen{
+    background-color: linen;
+
+}
